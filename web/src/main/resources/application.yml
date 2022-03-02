@@ -1,0 +1,16 @@
+server:
+  servlet:
+    contextPath: /api
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 15000
+        readTimeout: 15000
+        loggerLevel: basic
+
+clients:
+    nasa:
+        credentials:
+            api_key: zdUP8ElJv1cehFM0rsZVSQN7uBVxlDnu4diHlLSb
